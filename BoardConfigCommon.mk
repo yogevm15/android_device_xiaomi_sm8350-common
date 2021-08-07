@@ -43,6 +43,7 @@ KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8350
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := proton
 TARGET_KERNEL_CONFIG := vendor/todo
 
 # Kernel modules
